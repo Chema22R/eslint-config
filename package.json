@@ -1,0 +1,31 @@
+{
+    "name": "eslint-config-chema22r",
+    "version": "1.0.0",
+    "description": "ESLint basic configuration for personal projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Chema22R/eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "linter",
+        "config"
+    ],
+    "author": "Jose Maria Rivera Alonso (https://github.com/Chema22R)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Chema22R/eslint-config/issues"
+    },
+    "homepage": "https://github.com/Chema22R/eslint-config#readme",
+    "engines": {
+        "node": ">=8"
+    },
+    "peerDependencies": {
+        "eslint": ">=3"
+    }
+}
