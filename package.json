@@ -23,9 +23,9 @@
     },
     "homepage": "https://github.com/Chema22R/eslint-config#readme",
     "engines": {
-        "node": ">=8"
+        "node": ">=8.10.0"
     },
     "peerDependencies": {
-        "eslint": ">=3"
+        "eslint": ">=5.16.0"
     }
 }

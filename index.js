@@ -3,7 +3,11 @@ module.exports = {
         es2021: true
     },
     extends: [
-        'eslint:all'
+        'eslint:all',
+        'plugin:promise/recommended'
+    ],
+    plugins: [
+        "promise"
     ],
     parserOptions: {
         ecmaFeatures: {
@@ -20,9 +24,10 @@ module.exports = {
         "func-style": "off",
         "function-call-argument-newline": ["error", "consistent"],
         "handle-callback-err": ["error", "^.*(e|E)rr"],
+        "id-length": ["error", { "exceptions": ["i", "j", "k"] }],
         "jsx-quotes": ["error", "prefer-single"],
         "line-comment-position": "off",
-        "max-len": ["error", { "code": 140 }],
+        "max-len": ["error", { "code": 150 }],
         "max-statements": "off",
         "max-params": "off",
         "multiline-ternary": ["error", "always-multiline"],
