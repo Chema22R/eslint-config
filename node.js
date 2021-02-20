@@ -2,6 +2,11 @@ module.exports = {
     env: {
         node: true
     },
-    extends: [],
+    extends: [
+        "plugin:node/recommended-module"
+    ],
+    plugins: [
+        "node"
+    ],
     rules: {}
 };
