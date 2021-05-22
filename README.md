@@ -21,7 +21,7 @@ npm install --save-dev eslint-config-chema22r
 
 This ESLint config adds the rules modularly, depending on the needs of the project. Those are the possible extensions and their requirements:
 
-| Extension ID | Orientation | Requirements (plugins) |
+| Extension ID | Aim | Requirements (plugins) |
 |:-------------|:------------:|:-----------------------:|
 | [eslint-config-chema22r](./index.js) | Frontend <br/> Backend | [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) |
 | [eslint-config-chema22r/jest](./jest.js) | Frontend | [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest) |
