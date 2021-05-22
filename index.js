@@ -46,8 +46,10 @@ module.exports = {
         "no-magic-numbers": "off",
         "no-nested-ternary": "warn",
         "no-ternary": "off",
+        "no-undefined": "off",
         "no-underscore-dangle": "warn",
         "no-use-before-define": ["error", "nofunc"],
+        "no-useless-escape": "warn",
         "object-curly-spacing": ["error", "always"],
         "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
         "one-var": ["error", { "separateRequires": true, "var": "always" }],
@@ -55,8 +57,10 @@ module.exports = {
         "padded-blocks": ["error", "never"],
         "quote-props": ["error", "consistent-as-needed"],
         "quotes": ["error", "single"],
+        "require-unicode-regexp": "off",
         "sort-imports": ["error", { "ignoreCase": true }],
         "sort-keys": ["warn", "asc", { "caseSensitive": false, "natural": true }],
-        "space-before-function-paren": ["error", "never"]
+        "space-before-function-paren": ["error", "never"],
+        "spaced-comment": ["warn", "always", { "exceptions": ["/", "*", "-"] }]
     }
 };
