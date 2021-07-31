@@ -4,9 +4,11 @@ module.exports = {
     },
     extends: [
         'eslint:all',
+        'plugin:import/recommended',
         'plugin:promise/recommended'
     ],
     plugins: [
+        "import",
         "promise"
     ],
     parserOptions: {
@@ -25,14 +27,14 @@ module.exports = {
         "eol-last": ["error", "never"],
         "func-style": "off",
         "function-call-argument-newline": ["error", "consistent"],
-        "handle-callback-err": ["error", "^.*(e|E)rr"],
-        "id-length": ["error", { "exceptions": ["a", "b", "i", "j", "k", "t", "x", "y", "z"] }],
+        "handle-callback-err": ["error", "^.*(e|E)rr"], // deprecated in v7.0.0
+        "id-length": ["warn", { "exceptions": ["a", "b", "c", "e", "i", "j", "k", "t", "x", "y", "z"] }],
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "jsx-quotes": ["error", "prefer-single"],
         "line-comment-position": "off",
         "max-len": ["warn", { "code": 150 }],
-        "max-lines": "warn",
-        "max-lines-per-function": ["warn", { "IIFEs": true, "skipBlankLines": true, "skipComments": true }],
+        "max-lines": ["warn", { "max": 300, "skipBlankLines": true, "skipComments": true }],
+        "max-lines-per-function": ["warn", { "max": 50, "IIFEs": true, "skipBlankLines": true, "skipComments": true }],
         "max-params": ["warn", 5],
         "max-statements": "off",
         "multiline-comment-style": "warn",
@@ -43,14 +45,15 @@ module.exports = {
         "no-confusing-arrow": "warn",
         "no-console": "warn",
         "no-constructor-return": "warn",
+        "no-else-return": ["error", { allowElseIf: true }],
         "no-extra-parens": ["error", "all", { "ignoreJSX": "multi-line", "nestedBinaryExpressions": false }],
         "no-inline-comments": "off",
         "no-magic-numbers": "off",
         "no-nested-ternary": "warn",
         "no-ternary": "off",
         "no-undefined": "off",
-        "no-underscore-dangle": "warn",
-        "no-unused-vars": "warn",
+        "no-underscore-dangle": ["warn", { "allow": ["_id"] }],
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
         "no-use-before-define": ["error", "nofunc"],
         "no-useless-escape": "warn",
         "object-curly-spacing": ["error", "always"],
