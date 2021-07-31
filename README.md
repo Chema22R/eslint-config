@@ -23,7 +23,7 @@ This ESLint config adds the rules modularly, depending on the needs of the proje
 
 | Extension ID | Aim | Requirements (plugins) |
 |:-------------|:------------:|:-----------------------:|
-| [eslint-config-chema22r](./index.js) | Frontend <br/> Backend | [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) |
+| [eslint-config-chema22r](./index.js) | Frontend <br/> Backend | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) <br/> [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) |
 | [eslint-config-chema22r/jest](./jest.js) | Frontend | [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest) |
 | [eslint-config-chema22r/mocha](./mocha.js) | Backend | [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha) |
 | [eslint-config-chema22r/mongo](./mongo.js) | Backend | - |
@@ -34,7 +34,7 @@ This ESLint config adds the rules modularly, depending on the needs of the proje
 
 > All the extensions include a default configuration that can be overwritten (parserOptions, rules, settings, etc.).
 
-> All the extensions requirements must be installed or some of the imported rules might not work. E.g.: the extension [eslint-config-chema22r](./index.js) imports a custom set of rules based on the extensions `eslint:all` and `plugin:promise/recommended` so in this case, not installing the plugin [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) will disable all the rules related to this plugin, but the eslint rules will still be enabled.
+> All the extensions requirements must be installed or some of the imported rules might not work. E.g.: the extension [eslint-config-chema22r](./index.js) imports a custom set of rules based on the extensions `eslint:all`, `plugin:import/recommended` and `plugin:promise/recommended` so in this case, not installing the plugin [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) or [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) will disable all the rules related to the corresponding plugin, but the eslint rules will still be enabled.
 
 
 # Examples
