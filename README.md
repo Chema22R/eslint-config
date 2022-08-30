@@ -1,8 +1,6 @@
 ![CodeQL](https://github.com/Chema22R/eslint-config/workflows/CodeQL/badge.svg)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Chema22R/eslint-config.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Chema22R/eslint-config/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Chema22R/eslint-config.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Chema22R/eslint-config/context:javascript)
-[![dependencies Status](https://david-dm.org/chema22r/eslint-config/status.svg)](https://david-dm.org/chema22r/eslint-config)
-[![devDependencies Status](https://david-dm.org/chema22r/eslint-config/dev-status.svg)](https://david-dm.org/chema22r/eslint-config?type=dev)
 [![MIT License](https://camo.githubusercontent.com/d59450139b6d354f15a2252a47b457bb2cc43828/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f7365727665726c6573732e737667)](LICENSE)
 
 # ESLint Config
