@@ -23,6 +23,7 @@ module.exports = {
         "react/jsx-max-depth": ["error", { "max": 5 }],
         "react/jsx-max-props-per-line": "off",
         "react/jsx-no-bind": "warn",
+        "react/jsx-no-leaked-render": "off",
         "react/jsx-no-literals": "warn",
         "react/jsx-one-expression-per-line": ["error", { "allow": "single-child" }],
         "react/jsx-props-no-spreading": "warn",

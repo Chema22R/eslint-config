@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-chema22r",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "ESLint basic configuration for personal projects",
     "main": "index.js",
     "scripts": {
