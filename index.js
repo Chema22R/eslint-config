@@ -27,8 +27,10 @@ module.exports = {
         "eol-last": ["error", "never"],
         "func-style": "off",
         "function-call-argument-newline": ["error", "consistent"],
+        "function-paren-newline": ["warn", "consistent"],
         "handle-callback-err": ["error", "^.*(e|E)rr"], // deprecated in v7.0.0
         "id-length": ["warn", { "exceptions": ["a", "b", "c", "e", "i", "j", "k", "t", "x", "y", "z"] }],
+        "implicit-arrow-linebreak": "off",
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "jsx-quotes": ["error", "prefer-single"],
         "line-comment-position": "off",

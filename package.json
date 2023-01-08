@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-chema22r",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "ESLint basic configuration for personal projects",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,7 @@
         "linter",
         "config"
     ],
-    "author": "Jose Maria Rivera Alonso (https://github.com/Chema22R)",
+    "author": "Chema22R (https://github.com/Chema22R)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Chema22R/eslint-config/issues"
