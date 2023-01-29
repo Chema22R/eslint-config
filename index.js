@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        es2021: true
+        es2022: true
     },
     extends: [
         'eslint:all',
@@ -15,7 +15,7 @@ module.exports = {
         ecmaFeatures: {
             impliedStrict: true
         },
-        ecmaVersion: 2021,
+        ecmaVersion: 2022,
         sourceType: "module"
     },
     rules: {
@@ -60,7 +60,7 @@ module.exports = {
         "no-useless-escape": "warn",
         "object-curly-spacing": ["error", "always"],
         "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
-        "one-var": ["error", { "separateRequires": true, "var": "always" }],
+        "one-var": ["error", "never"],
         "operator-linebreak": ["error", "before"],
         "padded-blocks": ["error", "never"],
         "quote-props": ["error", "consistent-as-needed"],
