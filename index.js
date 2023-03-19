@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        es2022: true
+        es2021: true
     },
     extends: [
         'eslint:all',
@@ -15,7 +15,7 @@ module.exports = {
         ecmaFeatures: {
             impliedStrict: true
         },
-        ecmaVersion: 2022,
+        ecmaVersion: 2021,
         sourceType: "module"
     },
     rules: {
